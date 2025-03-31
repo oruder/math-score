@@ -4,7 +4,7 @@ import pandas as pd
 # Load the Excel file
 @st.cache_data
 def load_data():
-    df = pd.read_excel("수학단원db_최종_틀린문제포함.xlsx")
+    df = pd.read_excel("수학단원db_익명.xlsx")
     return df
 
 df = load_data()
